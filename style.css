@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    border: none;
+    outline: none;
+    
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.hero{
+    height: 862px;
+    padding: 30px 155px 0 120px;
+    background-image: url(images/background-one.png);
+    height: 864px;
+    background-size: cover;
+
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    display: inline;
+    margin-right: 5px;
+    padding: 11.5px 32px;
+    border-radius: 25px;
+}
+nav li:hover{
+    background: rgba(113, 213, 255, 0.24);
+
+}
+nav a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.hero-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.hero-title{
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 165px;
+    margin-bottom: 28px;
+}
+.hero-text button{
+    background: rgba(113, 213, 255, 0.24);
+    color: white;
+    border-radius: 25px;
+    padding: 11.5px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 53px;
+}
+.hero-icons{
+    margin-top: 100px;
+}
+.hero-icons img{
+    margin-right: 25px;
+}
+.services-section{
+    margin: 0 120px 336px 120px;
+}
+.section-header{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 615px;
+    margin: 0 auto;
+    color:#7F7E7E;
+    margin-bottom: 131px;
+}
+.section-head{
+    font-weight: 900;
+    color: #FF688C;
+    margin-bottom: 16px;
+}
+.section-sub-head{
+    font-weight: 900;
+    font-size: 38px;
+    color: black;
+    margin-bottom: 50px;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.7em;
+    margin-bottom: 73px;
+}
+.grid-2{
+    grid-template-columns: 2fr 1fr;
+}
+.grid-3{
+    grid-template-columns: 1fr 2fr;
+    gap: 86px;
+}
+.service-grid-text-header{
+    margin-bottom: 64px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 4.3em;
+}
+.grid-3 .service-grid-text-header{
+    margin-top: 3em;
+}
+.service-grid-text-sub-head{
+    width: 404px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    color:#7F7E7E;
+    align-items: center;
+}
+.portfolio-section{
+    width: 75%;
+    margin: 0 auto;
+}
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+.portfolio-grid img{
+    width: 320px;
+    height: 390px;
+}
+.portfolio-button{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-button button{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 54px;
+    border-radius: 25px;
+    border: 2px solid #C4C4C4;
+    color:#FF688C;
+    
+}
+.team-section{
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    width: 80%;
+    margin:228px auto;
+    margin-bottom: 0;
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+.team-grid img{
+    width: 250px;
+    height: 320px;
+}
+.team-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+}
+.work-with-us{
+    overflow: hidden;
+}
+.work-header{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 519px;
+    margin: 0 auto;
+    color:#7F7E7E;
+    margin-top: 49px;
+}
+.work-button{
+    display: flex;
+    justify-content: center;
+}
+.work-button button{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 32px;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(101.53deg, #127CFF -9.34%, #2FC1FE 106.23%);
+    margin-top: 58px;
+    margin-bottom: 203px; 
+}
+.logo-main{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.logo p{
+    font-size: 16px;
+    font-weight: 700;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.footer-headers{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+footer a{
+    color:#797979;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+footer li{
+    margin-bottom: 10px;
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 80px auto;
+}
+.social-icons img{
+    margin-left: 24px;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+}
